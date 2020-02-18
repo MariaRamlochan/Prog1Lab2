@@ -1,6 +1,6 @@
 import java.util.*;
 
-//Program that calculate the Body Mass Index of a person.
+//Giving the first and last name of a user.
 public class Naming{
 
 	public static void main(String[] args){
