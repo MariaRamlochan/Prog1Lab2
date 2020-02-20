@@ -16,8 +16,8 @@ public class Naming{
 		System.out.println("Enter firstname: ");
 		String firstName = sc .next();
 		
+		firstName = (firstName.substring(0,1).toUpperCase() + firstName.substring(1));
+		lastName = (lastName.substring(0,1).toUpperCase() + lastName.substring(1));
 		System.out.println("Full Name: " + firstName + " " + lastName);
-		
-	
 	}
 }
